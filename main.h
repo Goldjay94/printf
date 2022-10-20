@@ -1,4 +1,4 @@
-#ifndef MAIN_H 
+#ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
@@ -104,7 +104,7 @@ int write_pointer(char buffer[], int ind, int length,
 
 int write_unsgnd(int is_negative, int ind,
 char buffer[],
-        int flags, int width, int precision, int size);
+int flags, int width, int precision, int size);
 
 /****************** UTILS ******************/
 int is_printable(char);
